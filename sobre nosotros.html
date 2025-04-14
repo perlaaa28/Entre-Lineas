@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sobre nosotros</title>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+
+/*header*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth; /*pa que suba lindo*/
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	font-family: 'Roboto Slab', serif;
+	position: fixed; /* para que siempre aparezca en la misma posición.*/
+	top: 0;
+	right: 0;
+	z-index: 100; /*para que se quede encima el cosa*/
+	background-color: #f6dbec;
+}
+
+.container_header{ 
+	max-width: 1200px;
+	height: 100%;
+	display: flex;	/*pa ponerlo en fila*/
+	background: #f6dbec;
+	justify-content: space-between; 
+	margin: auto;
+	padding: 0px 20px;
+}
+
+header .logo{
+	height: 100%;
+}
+
+.logo img{
+	width: 250px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_nav{
+	position: relative;
+	height: 100%;
+}
+
+nav{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	margin: 0px 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 14px;
+}
+
+/*para que q salga de otro color*/
+.select{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select1{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select3{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select4{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select5{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 300px;
+	padding: 30px 0px;
+	background-color: #f6dbec;
+	margin-top: 60px;
+}
+
+.container_footer{
+	display: flex;
+	flex-wrap: wrap; /*permite controlar la dirección en la cual serán apilados los elementos.*/
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.box_footer{
+	display: flex;
+	flex-direction: column; /*ponerlas en columnas*/
+	padding: 40px;
+}
+
+.box_footer .logo img{
+	width: 100px;
+	border-radius: 1em;
+	padding: 2px;
+
+}
+
+.box_footer .Terminos{
+	max-width: 350px;
+	margin-top: 0px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+    font-size: 15px
+    color: #5A5A5A;
+}
+
+.box_footer h2{
+	margin-bottom: 00px;
+	font-weight: 700 ;
+	font-size: 13;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_footer a{
+	margin-top: 10px;
+	color: black;
+	font-weight:600 ;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.box_footer a:hover{
+opacity: 0.8 ;
+}
+
+.box_footer a .fab{
+	font-size: 10px
+}
+
+.box_copyright{
+	max-width:1200px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_copyright p{
+	margin-top: 20px;
+    color: #5A5A5A;
+	font-size: 12px
+	font-family: 'Roboto Slab', serif;
+}
+
+/*la rayita*/
+.box_copyright hr{
+	border: none; 
+	height: 1px;
+	background-color:#5A5A5A;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*caja del botoncito de "Comenzar"*/
+.caja1{
+	height: 40px;
+	width:100px;
+	background-color:#DD93FF;
+	border-radius: 20px;
+	padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: white	;
+    font-weight: 900; /*grueso de la letra*/
+    margin-top: 10px;
+
+}
+
+.cajam{
+	height: 200px;
+	width: 1000px;
+	border: 60px;
+	margin: auto;
+    background-color:#f6dbec;
+	border-radius: 1em;
+	padding: 10px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	margin-top: 12px;
+
+}
+
+.cajav{
+	height: 130px;
+	width: 1000px;
+	border: 60px;
+	margin: auto;
+    background-color:#f6dbec;
+	border-radius: 1em;
+	padding: 10px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	margin-top: 12px;
+
+}
+
+.cajava{
+	height: 260px;
+	width: 1000px;
+	border: 60px;
+	margin: auto;
+    background-color:#f6dbec;
+	border-radius: 1em;
+	padding: 30px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	margin-top: 12px;
+
+}
+
+.sobre{
+	height: 315px;
+	width: 1000px;
+	border: 60px;
+	margin: auto;
+    background-color:#f6dbec;
+	border-radius: 1em;
+	padding: 30px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	margin-top: 130px;
+
+}</style>
+
+
+</head>
+<body bgcolor="white">
+
+	<header>
+		<div class="container_header">
+<div class="logo">
+	<a href="Entre Líneas.html"><img src="img/looo.png" alt=""></a>
+</div>
+<div class="container_nav">
+	<nav>
+		<ul>
+	<li><a href="Entre Líneas.html" class="select">Inicio</a></li>
+            <li><a href="books.html" class="select1">Libros</a></li>
+            <li><a href="contactos.html" class="select3">Contactos</a></li>
+            <li><a href="Sobre nosotros.html" class="select5">Sobre nosotros</a></li>
+            <li><a href="Terminos y condiciones.html" class="select4">Terminos y Condiciones</a></li>
+
+		</ul>
+	</nav>
+</div>
+        </div>
+	</header>
+
+<div class="sobre">
+	<center><h4>Sobre nosotros</h4></center>
+	<p> Es una librería virtual dedicada a la venta de libros digitales y físicos, así como a la creación de un espacio dinámico para eventos culturales en línea. Nos especializamos en ofrecer una amplia variedad de títulos, desde literatura clásica y contemporánea hasta libros de desarrollo personal, ciencia, arte y más, asegurando que nuestros lectores encuentren siempre algo que les inspire.
+Nuestro objetivo es fomentar la lectura y el acceso a la cultura en el entorno digital, proporcionando una plataforma accesible, interactiva y amigable que conecte a los amantes de los libros con historias, conocimientos y experiencias enriquecedoras. A través de nuestra librería, los usuarios pueden explorar catálogos cuidadosamente seleccionados, recibir recomendaciones personalizadas y participar en eventos exclusivos, como clubes de lectura, presentaciones de autores y talleres literarios.
+</p>
+	
+
+
+        <p>Nuestros artículos están muy ciudados y seleccionados, relacionados con el mundo del aprendizaje y la ficcion, tenemos cuentos maravillosos que hacen las delicias de pequeños y grandes, libros de lectura para todas las edades, últimas novedades de los escritores más vendidos, ayudan a los adolescentes a aprender del amor,  ficción moderna juvenil, literatura, ingles, religión y negocios.</p>
+</div>
+
+<div class="cajam">
+	<center><h4>Mision:</h4></center>
+	<p>
+Entre Líneas es una empresa dedicada a la venta de libros. Abrimos en el año 2024 y desde el primer momento tuvimos claro que en Santiago había espacio para una librería de fondo; un lugar en el que el lector pudiese buscar y, sobre todo, encontrar esos libros que deben estar en las estanterías. Además nuestra intención es hacer la vida más agradable a las personas que entran en Entre Líneas, tratando de atenderlas lo mejor posible y de darles el mejor servicio. Los que trabajamos en la librería somos ante todo lectores; nos gusta leer y que nuestro negocio esté totalmente enfocado al libro. En este entorno tratamos de hacer que nuestro trabajo diario sea placentero.</p>
+</div>
+
+<div class="cajav">
+	<center><h4>Vision:</h4></center>
+	<p>
+Nuestro proyecto busca consolidarse como una librería de referencia en Santiago y, desde aquí, abrirnos al resto del mundo aprovechando las herramientas de las que disponemos (redes sociales, página web, etc). En el futuro queremos seguir realizando las mismas actividades culturales alrededor del libro que hasta ahora y ampliarlas con otras como clubes de lectura, talleres, etc.
+
+</p>
+</div>
+
+<div class="cajava">
+	<center><h4>Valores:</h4></center>
+	<p>Nuestro trabajo en la librería Trama siempre tiene en cuanto los siguientes puntos.</p>
+		<ul>
+		<li>Pasión: Nos sentimos atraídos por los libros, pero sobre todo sentimos pasión por las personas.</li>
+<li>Respeto por todos los colaboradores, clientes y proveedores.</li>
+<li>Actitud de servicio.</li>
+<li>Integridad. </li>
+<li>Empatía.</li>
+<li>Respeto. Tratamos a todos con dignidad.</li>
+<li>Innovación. Generamos nuevas ideas para transformar el entorno.</li>
+</ul>
+
+</div>
+
+	<footer>
+	
+	<div class="container_footer">
+		<div class="box_footer">
+			<div class="logo">
+				<a href="#"> <img src="img/looo.png" alt=""></a>
+			</div>
+			      <div class="Terminos">
+			      	<p>Nuestro objetivo es enamorar a los jovenes y a los no jovenes con la lectura, somos una libreria de muy buena calidad con una gran variacion de libros.</p>
+			      </div>
+		</div>
+		
+
+		<div class="box_footer">
+			<h2>Redes Sociales</h2>
+			<a href="https://www.instagram.com/pminaya.28/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+			<a href="https://es-la.facebook.com/Libreriadominicana/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+			<a href="https://twitter.com/librosdominican"><i class="fa-brands fa-twitter"></i>Twitter</a>
+		</div>
+
+	</div>
+
+<div class="box_copyright">
+	<hr>
+	<p> Todos los derechos reservados © <strong>Perla Minaya</strong></p>
+
+</div>
+
+</footer>
+
+</body>
+</html>

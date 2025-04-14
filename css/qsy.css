@@ -1,0 +1,44 @@
+body{
+	background-color: ;
+}
+
+h1{
+color: rgb(23, 32, 42);
+font-size: 50px;
+font-family: Times New Roman;
+margin-top: 6px;
+}
+
+.caja1{
+background-color: #D2B48C;
+			height: 60px;
+			width: 50%;
+            border-radius: 1em;
+            margin: ;
+            padding:1em;
+            border: 3px solid whitesmoke;
+            float:center;
+            clear:center;
+         margin-top: 0px;
+		}
+
+.caja2{
+background-color: #D2B48C;
+height:475px;
+width: 280px;
+border: 2px solid whitesmoke;
+float: left;
+margin-top:20px;
+padding: 1em;
+font-size: 20px;
+}
+
+.caja3{
+	background-color: #D2B48C;
+	height: 425px;
+	width: 325px;
+	border: 2px solid whitesmoke;
+	margin-top: 20px;
+	padding: 1em;
+	float: right;
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Terminos y condiciones</title>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+
+/*header*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth; /*pa que suba lindo*/
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	font-family: 'Roboto Slab', serif;
+	position: fixed; /* para que siempre aparezca en la misma posición.*/
+	top: 0;
+	right: 0;
+	z-index: 100; /*para que se quede encima el cosa*/
+	background-color: #f6dbec;
+}
+
+.container_header{ 
+	max-width: 1200px;
+	height: 100%;
+	display: flex;	/*pa ponerlo en fila*/
+	background: #f6dbec;
+	justify-content: space-between; 
+	margin: auto;
+	padding: 0px 20px;
+}
+
+header .logo{
+	height: 100%;
+}
+
+.logo img{
+	width: 250px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_nav{
+	position: relative;
+	height: 100%;
+}
+
+nav{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	margin: 0px 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 14px;
+}
+
+/*para que q salga de otro color*/
+.select{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select1{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select3{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select4{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select5{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+
+
+.caja1{
+	height: 55px;
+	width: 495px;
+    margin-top: 120px;
+    font-family: 'Roboto Slab', serif;
+    /*background-color: #FFFFFF;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px;
+    border-radius: 5px;
+     text-align: center;
+}
+
+.caja2{
+	height: 1240px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.caja3{
+	height: 55px;
+	width: 495px;
+    margin-top: 12px;
+    font-family: 'Roboto Slab', serif;
+    /*background-color: #FFFFFF;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px;
+    border-radius: 5px;
+     text-align: center;
+}
+
+.caja4{
+	height: 130px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.caja5{
+	height: 55px;
+	width: 495px;
+    margin-top: 12px;
+    font-family: 'Roboto Slab', serif;
+    /*background-color: #FFFFFF;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.caja6{
+	height: 670px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.caja7{
+	height: 55px;
+	width: 495px;
+    margin-top: 12px;
+    font-family: 'Roboto Slab', serif;
+    /*background-color: #FFFFFF;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px;
+    border-radius: 5px;
+     text-align: center;
+}
+
+.caja8{
+	height: 100px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.caja9{
+	height: 55px;
+	width: 1000px;
+    margin-top: 12px;
+    font-family: 'Roboto Slab', serif;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 7px;
+  text-align: center;
+
+}.caja10{
+	height: 120px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+
+}.caja11{
+	height: 55px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+
+}.caja12{
+	height: 190px;
+	width: 1000px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f6dbec;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 300px;
+	padding: 30px 0px;
+	background-color: #f6dbec;
+	margin-top: 60px;
+}
+
+.container_footer{
+	display: flex;
+	flex-wrap: wrap; /*permite controlar la dirección en la cual serán apilados los elementos.*/
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.box_footer{
+	display: flex;
+	flex-direction: column; /*ponerlas en columnas*/
+	padding: 40px;
+}
+
+.box_footer .logo img{
+	width: 100px;
+	border-radius: 1em;
+	padding: 2px;
+
+}
+
+.box_footer .Terminos{
+	max-width: 350px;
+	margin-top: 0px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+    font-size: 15px
+    color: #5A5A5A;
+}
+
+.box_footer h2{
+	margin-bottom: 00px;
+	font-weight: 700 ;
+	font-size: 13;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_footer a{
+	margin-top: 10px;
+	color: black;
+	font-weight:600 ;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.box_footer a:hover{
+opacity: 0.8 ;
+}
+
+.box_footer a .fab{
+	font-size: 10px
+}
+
+.box_copyright{
+	max-width:1200px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_copyright p{
+	margin-top: 20px;
+    color: #5A5A5A;
+	font-size: 12px
+	font-family: 'Roboto Slab', serif;
+}
+
+/*la rayita*/
+.box_copyright hr{
+	border: none; 
+	height: 1px;
+	background-color:#5A5A5A;
+	font-family: 'Roboto Slab', serif;
+}
+</style>
+</head>
+<body bgcolor="#F7F7F7">
+
+	<header>
+		<div class="container_header">
+<div class="logo">
+	<a href="The purple books.html"><img src="img/looo.png" alt="200px"></a>
+</div>
+<div class="container_nav">
+	<nav>
+		<ul>
+		<li><a href="Entre Líneas.html" class="select">Inicio</a></li>
+            <li><a href="books.html" class="select1">Libros</a></li>
+            <li><a href="contactos.html" class="select3">Contactos</a></li>
+            <li><a href="Sobre nosotros.html" class="select5">Sobre nosotros</a></li>
+            <li><a href="Terminos y condiciones.html" class="select4">Terminos y Condiciones</a></li>
+		</ul>
+	</nav>
+</div>
+        </div>
+	</header>
+
+<div class="caja1">
+	<h1>Términos y Condiciones de Uso</h1>
+</div>
+
+	<div class="caja2">
+		<p>Este documento describe los Términos y Condiciones Generales y las Políticas de Privacidad aplicables al acceso y uso de los servicios ofrecidos por Hipertexto SAS., propietaria de <a href="ffile:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a>  dentro del sitio <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> u otros dominios (urls) relacionados (en adelante <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> o el 'sitio') en donde estos Términos y Condiciones Generales se encuentren. Cualquier persona que desee acceder, suscribirse o usar el sitio o los servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales, y a todas las demás políticas y principios que rigen <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> y que son incorporados al presente directamente o por referencia, o que son explicados o detallados en otras secciones del sitio. En consecuencia, todas las visitas y todos los contratos y las transacciones que se realicen en este sitio, así como sus efectos jurídicos, quedarán regidos por estas reglas y sometidos a la legislación aplicable en Republica Dominicana.
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>En caso de que las empresas hubieran fijado sus propios términos y condiciones para los actos y contratos que realicen en este sitio, ellas aparecerán en esta página señaladas con un enlace o indicadas como parte de la promoción de sus ofertas y promociones y prevalecerán sobre estas. Cualquier persona que no acepte estos Términos y Condiciones Generales, los cuales tienen un carácter obligatorio y vinculante, deberá abstenerse de utilizar el sitio o los servicios.</p>
+
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>El usuario debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de Privacidad de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> así como en los demás documentos incorporados a los mismos por referencia, previo a su registro como usuario de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> la adquisición de productos o a la entrega de cualquier dato con cualquier fin.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>Si el usuario hiciera uso del sitio de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> ello implicará la aceptación plena de las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de Libreria de la u. Por dicha utilización del sitio o de sus servicios, el usuario se obligará a cumplir expresamente con las mismas, no pudiendo alegar el desconocimiento de tales Términos y Condiciones Generales y Política de Privacidad.</p>
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+
+<strong>Capacidad Legal</strong>
+<p>Los servicios solo están disponibles para personas que tengan capacidad legal para contratar. No podrán utilizar los servicios las personas que no tengan esa capacidad ni los menores de edad. Los actos que estos realicen en este sitio serán responsabilidad de sus padres, tutores, encargados o curadores y, por tanto, se considerarán realizados por estos en ejercicio de la representación legal con la que cuentan. Quien registre un usuario como empresa, deberá tener capacidad para contratar a nombre de tal entidad y de obligar a la misma en los términos de este acuerdoste documento describe los Términos y Condiciones Generales y las Políticas de Privacidad aplicables al acceso y uso de los servicios ofrecidos por Hipertexto SAS., propietaria de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> dentro del sitio u otros dominios (urls) relacionados (en adelante <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> o el 'sitio') en donde estos Términos y Condiciones Generales se encuentren. Cualquier persona que desee acceder, suscribirse o usar el sitio o los servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales, y a todas las demás políticas y principios que rigen <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> y que son incorporados al presente directamente o por referencia, o que son explicados o detallados en otras secciones del sitio. En consecuencia, todas las visitas y todos los contratos y las transacciones que se realicen en este sitio, así como sus efectos jurídicos, quedarán regidos por estas reglas y sometidos a la legislación aplicable en Republica Dominicana.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>Los términos y las condiciones de este instrumento se aplicarán y se entenderán como parte de todos los actos y contratos que se ejecuten o celebren mediante los sistemas de oferta y comercialización comprendidos en este sitio entre los usuarios e Hipertexto SAS, en adelante <a href="ffile:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a>, y por cualquiera de las otras sociedades o empresas que sean filiales o coligadas con ella, y que hagan uso de este sitio, a las cuales se las denominará en adelante también en forma indistinta como 'las empresas', o bien 'la empresa oferente', el 'proveedor' o la 'empresa proveedora', según convenga al sentido del texto.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>En caso de que las empresas hubieran fijado sus propios términos y condiciones para los actos y contratos que realicen en este sitio, ellas aparecerán en esta página señaladas con un enlace o indicadas como parte de la promoción de sus ofertas y promociones y prevalecerán sobre estas. Cualquier persona que no acepte estos Términos y Condiciones Generales, los cuales tienen un carácter obligatorio y vinculante, deberá abstenerse de utilizar el sitio o los servicios.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>El usuario debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de Privacidad de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> así como en los demás documentos incorporados a los mismos por referencia, previo a su registro como usuario de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> a la adquisición de productos o a la entrega de cualquier dato con cualquier fin.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+<p>Si el usuario hiciera uso del sitio de <a href="file:///C:/Users/Perla%20Minaya/Desktop/proyecto%20final/The%20purple%20books.html">Entre Líneas</a> ello implicará la aceptación plena de las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de Libreria de la u. Por dicha utilización del sitio o de sus servicios, el usuario se obligará a cumplir expresamente con las mismas, no pudiendo alegar el desconocimiento de tales Términos y Condiciones Generales y Política de Privacidad.</p>
+
+	</div>
+
+<div class="caja3">
+<h1>Capacidad Legal</h1>
+</div>
+
+<div class="caja4"><p>Los servicios solo están disponibles para personas que tengan capacidad legal para contratar. No podrán utilizar los servicios las personas que no tengan esa capacidad ni los menores de edad. Los actos que estos realicen en este sitio serán responsabilidad de sus padres, tutores, encargados o curadores y, por tanto, se considerarán realizados por estos en ejercicio de la representación legal con la que cuentan. Quien registre un usuario como empresa, deberá tener capacidad para contratar a nombre de tal entidad y de obligar a la misma en los términos de este acuerdo</p>
+</div>
+
+<div class="caja5">
+	<h1>Registro y Uso del Sitio</h1>
+</div>
+
+<div class="caja6">
+	<p>Es obligatorio completar el formulario de registro en todos sus campos con datos válidos para convertirse en usuario de <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a>, acceder a las promociones y adquirir los productos o servicios ofrecidos en este sitio. El futuro usuario deberá completar el formulario de registro con su información personal de manera exacta, precisa y verdadera ('datos personales') y asume el compromiso de actualizar los datos personales conforme resulte necesario. <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> podrá utilizar diversos medios para identificar a sus usuarios, pero <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> no se responsabiliza por la certeza de los datos personales provistos por ellos. Los usuarios garantizan y responden, en cualquier caso, de la exactitud, veracidad, vigencia y autenticidad de los datos personales ingresados.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤ</p>
+<p>Cada miembro solo podrá ser titular de una (1) cuenta en <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> no pudiendo acceder a más de una (1) cuenta con distintas direcciones de correo electrónico ni falseando, modificando o alterando sus datos personales de cualquier manera posible. Si se verificara o sospechara un uso fraudulento, malintencionado, contrario a estos términos y condiciones o contrarios a la buena fe, <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> tendrá el derecho inapelable de quitar los créditos, dar de baja las cuentas y hasta de perseguir judicialmente a los infractores.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤ</p>
+<p><a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> se reserva el derecho de solicitar algún comprobante o dato adicional a efectos de corroborar los datos personales, así como de suspender temporal o definitivamente a aquellos usuarios cuyos datos no hayan podido ser confirmados. En estos casos de inhabilitación, <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> podrá dar de baja la compra efectuada, sin que ello genere derecho alguno a resarcimiento, pago o indemnización.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤ</p>
+<p>El usuario, una vez registrado, dispondrá de su dirección de email y de una contraseña que le permitirá el acceso personalizado, confidencial y seguro. El usuario tendrá la posibilidad de cambiar la contraseña de acceso, para lo cual deberá sujetarse al procedimiento establecido en el sitio respectivo. El usuario asume totalmente la responsabilidad por el mantenimiento de la confidencialidad de la contraseña registrada en este sitio web, la cual le permite efectuar compras, solicitar servicios y obtener información. Dicha contraseña es de uso personal y su entrega a terceros, no involucra responsabilidad de <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> ni de las empresas en caso de utilización indebida, negligente o incorrecta.</p>
+
+<p>ㅤㅤㅤㅤㅤㅤ</p>
+<p>El usuario será responsable por todas las operaciones efectuadas en su cuenta, pues el acceso a la misma está restringido al uso de la contraseña, la cual es de su conocimiento exclusivo. El usuario se compromete a notificar a <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> en forma inmediata, por medio idóneo y fehaciente, cualquier uso no autorizado de su cuenta o contraseña, así como el ingreso por terceros no autorizados a la misma. Se aclara que está prohibida la venta, la cesión, el préstamo o la transferencia de la contraseña y la cuenta bajo ningún título.</p>
+</div>
+
+<div class="caja7"><h1>Privacidad de la Información</h1></div>
+
+<div class="caja8">
+	<p>
+		Para utilizar los servicios ofrecidos por <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> y sus sitios relacionados, los usuarios deberán facilitar determinados datos de carácter personal. Su información personal se procesa manteniendo altos estándares de seguridad y protección, tanto física como tecnológica.
+	</p>
+	
+</div>
+
+<div class="caja9"><h1>Envios gratis a toda República Dominicana</h1></div>
+
+<div class="caja10"><p>
+<a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> ofrece el envío gratis a toda RD, excepto ciertas zonas donde no aplica. Este beneficio es válido únicamente para compras de libros impresos, libros importados y libros Impresos Bajo Demanda que estén disponibles en nuestro portal. El sistema otorgará el envío gratis para compras superiores a RD$2,000.00, siempre que la dirección de entrega no esté dentro de las zonas excluidas.
+Los libros importados que estén identificados con la etiqueta de 40% OFF tendrán envío gratis a toda RD sin restricción de zonas ni monto mínimo de compra.</p></div>
+
+<div class="caja11"><h1>Derecho de retracto</h1></div>
+
+<div class="caja12">
+	<p>
+		El usuario tiene derecho a retracto de la operación comercial (por adquisición de productos o prestación de servicios) durante un plazo de cinco (5) días hábiles, en el caso de los productos físicos, y un plazo de tres (3) días hábiles, en el caso de los productos digitales, contados a partir de la fecha en que se entregue el producto. Esta facultad no puede ser dispensada ni renunciada. El usuario comunicará fehacientemente dicha revocación al proveedor y pondrá el producto a su disposición. Para ejercer el derecho de retracto, el usuario deberá poner el producto a disposición del vendedor sin haberlo usado y manteniéndolo en el mismo estado en que lo recibió. En ese momento, <a href="file:///C:/Users/Perla%20Minaya/OneDrive/Escritorio/proyecto%20final/The%20purple%20books.html">The purple books</a> devolverá al usuario el precio total pagado. Pasado ese plazo, la empresa proveedora podrá buscar la mejor solución posible en pos de la satisfacción del usuario, sin que esto sea obligatorio para ella. El usuario deberá asumir el costo del envío del producto devuelto y el costo del envío del producto recibido por el cambio.
+	</p>
+</div>
+
+<footer>
+	
+	<div class="container_footer">
+		<div class="box_footer">
+			<div class="logo">
+				<a href="#">  <img src="img/looo.png" alt=""></a>
+			</div>
+			      <div class="Terminos">
+			      	<p>Nuestro objetivo es enamorar a los jovenes y a los no jovenes con la lectura, somos una libreria de muy buena calidad con una gran variacion de libros. </p>
+			      </div>
+		</div>
+
+		
+
+		<div class="box_footer">
+			<h2>Redes Sociales</h2>
+			<a href="https://www.instagram.com/pminaya.28/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+			<a href="https://es-la.facebook.com/Libreriadominicana/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+			<a href="https://twitter.com/librosdominican"><i class="fa-brands fa-twitter"></i>Twitter</a>
+		</div>
+	</div>
+
+<div class="box_copyright">
+	<hr>
+	<p> Todos los derechos reservados © <strong>Perla Minaya</strong></p>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>

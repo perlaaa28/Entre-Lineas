@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contactos</title>
+	<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+/*header*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth; /*pa que suba lindo*/
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	font-family: 'Roboto Slab', serif;
+	position: fixed; /* para que siempre aparezca en la misma posición.*/
+	top: 0;
+	right: 0;
+	z-index: 100; /*para que se quede encima el cosa*/
+	background-color: #f6dbec;
+}
+
+.container_header{ 
+	max-width: 1200px;
+	height: 100%;
+	display: flex;	/*pa ponerlo en fila*/
+	background: #f6dbec;
+	justify-content: space-between; 
+	margin: auto;
+	padding: 0px 20px;
+}
+
+header .logo{
+	height: 100%;
+}
+
+.logo img{
+	width: 250px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_nav{
+	position: relative;
+	height: 100%;
+}
+
+nav{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	margin: 0px 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 14px;
+}
+
+/*para que q salga de otro color*/
+.select{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select1{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select3{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select4{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select5{
+	background: #eca2d0;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 300px;
+	padding: 30px 0px;
+	background-color: #f6dbec;
+	margin-top: 60px;
+}
+
+.container_footer{
+	display: flex;
+	flex-wrap: wrap; /*permite controlar la dirección en la cual serán apilados los elementos.*/
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.box_footer{
+	display: flex;
+	flex-direction: column; /*ponerlas en columnas*/
+	padding: 40px;
+}
+
+.box_footer .logo img{
+	width: 100px;
+	border-radius: 1em;
+	padding: 2px;
+
+}
+
+.box_footer .Terminos{
+	max-width: 350px;
+	margin-top: 0px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+    font-size: 15px
+    color: #5A5A5A;
+}
+
+.box_footer h2{
+	margin-bottom: 00px;
+	font-weight: 700 ;
+	font-size: 13;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_footer a{
+	margin-top: 10px;
+	color: black;
+	font-weight:600 ;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.box_footer a:hover{
+opacity: 0.8 ;
+}
+
+.box_footer a .fab{
+	font-size: 10px
+}
+
+.box_copyright{
+	max-width:1200px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_copyright p{
+	margin-top: 20px;
+    color: #5A5A5A;
+	font-size: 12px
+	font-family: 'Roboto Slab', serif;
+}
+
+/*la rayita*/
+.box_copyright hr{
+	border: none; 
+	height: 1px;
+	background-color:#5A5A5A;
+	font-family: 'Roboto Slab', serif;
+}
+.caja1{
+	height: 220px;
+	width: 300px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 100px;
+	padding: 29px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+.caja2{
+	height: 350px;
+	width: 400px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: -255px;
+	padding: 12px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+} 
+</style>
+	
+</head>
+<body bgcolor="#F7F7F7">
+
+	<header>
+		<div class="container_header">
+<div class="logo">
+	<a href="Entre Líneas.html"><img src="img/looo.png" alt="200px"></a>
+</div>
+<div class="container_nav">
+	<nav>
+		<ul>
+			<li><a href="Entre Líneas.html" class="select">Inicio</a></li>
+            <li><a href="books.html" class="select1">Libros</a></li>
+            <li><a href="contactos.html" class="select3">Contactos</a></li>
+            <li><a href="Sobre nosotros.html" class="select5">Sobre nosotros</a></li>
+            <li><a href="Terminos y condiciones.html" class="select4">Terminos y Condiciones</a></li>
+		</ul>
+	</nav>
+</div>
+        </div>
+	</header>
+
+<div class="caja0">
+	<h1>The purple books</h1>
+</div>
+
+	<div class="box_footer">
+		<div class="caja1">
+
+			<h2>Redes Sociales</h2>
+			<ul>
+			<li><a href="https://www.instagram.com/libreriadominicana/?hl=es"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+			<li><a href="https://es-la.facebook.com/Libreriadominicana/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+			<li><a href="https://twitter.com/librosdominican"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+			<li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></li>
+		        </ul>
+		</div>
+
+
+
+		<div class="caja2">
+			<h2>Tambien puedes contactarnos a</h2>
+			<p><strong>Numeros de telefono</strong></p>
+                        <p>829-841-2028</p>
+                        <p>849-815-9827</p>
+                        <p>ㅤㅤㅤㅤㅤㅤ</p>
+                        <p><strong>Instagram personal</strong></p>
+                        <p>pminaya.28</p>
+                        <p>ㅤㅤㅤㅤㅤㅤ</p>
+                        <p><strong>Correos</strong></p>
+                        <p>perlaminaya7@gmail.com</p>
+                        <p>perlaaaminaya@gmail.com</p>
+                        <p>ㅤㅤㅤㅤㅤㅤ</p>
+                        <strong><p>Estamos ubicados en</p></strong>
+                         <a href="https://www.waze.com/es/live-map/directions/politecnico-prof.-rafaela-perez-calle-m-altos-de-vireya?to=place.w.189595843.1895827356.17066071">Calle M, Altos de Vireya, Dominican Republic</a></p>
+                        
+
+                        
+		</div>
+			
+		</div>
+
+	<footer>
+	
+	<div class="container_footer">
+		<div class="box_footer">
+			<div class="logo">
+				<a href="contactos.html"><img src="img/looo.png" alt=""></a>
+			</div>
+			      <div class="Terminos">
+			      	<p>Nuestro objetivo es enamorar a los jovenes y a los no jovenes con la lectura, somos una libreria de muy buena calidad con una gran variacion de libros. </p>
+			      </div>
+		</div>
+
+		
+
+		<div class="box_footer">
+			<h2>Redes Sociales</h2>
+			<a href="https://www.instagram.com/pminaya.28/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+			<a href="https://es-la.facebook.com/Libreriadominicana/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+			<a href="https://twitter.com/librosdominican"><i class="fa-brands fa-twitter"></i>Twitter</a>
+		</div>
+
+	</div>
+
+<div class="box_copyright">
+	<hr>
+	<p> Todos los derechos reservados © <strong>Perla Minaya</strong></p>
+
+</div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	font-family: 'Roboto Slab', serif;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	background: #B924FF;
+}
+
+.container_header{
+	max-width: 1200px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 0px 20px;
+}
+
+header .logo{
+	height: 100%;
+}
+
+.logo img{
+	width: 230px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_nav{
+	position: relative;
+	height: 100%;
+}
+
+nav{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	margin: 0px 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 14px;
+}
+
+/*para que cuando se selecione salga de otro color*/
+.select{
+	background: #DD93FF;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select1{
+	background: #DD93FF;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select3{
+	background: #DD93FF;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select4{
+	background: #DD93FF;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
+
+.select5{
+	background: #DD93FF;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 20px;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 300px;
+	padding: 30px 0px;
+	background-color: #DD93FF;
+	margin-top: 60px;
+}
+
+.container_footer{
+	display: flex;
+	flex-wrap: wrap; /*permite controlar la dirección en la cual serán apilados los elementos.*/
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.box_footer{
+	display: flex;
+	flex-direction: column; /*ponerlas en columnas*/
+	padding: 40px;
+}
+
+.box_footer .logo img{
+	width: 100px;
+	border-radius: 1em;
+	padding: 2px;
+
+}
+
+.box_footer .Terminos{
+	max-width: 350px;
+	margin-top: 0px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+    font-size: 15px
+    color: #5A5A5A;
+}
+
+.box_footer h2{
+	margin-bottom: 00px;
+	font-weight: 700 ;
+	font-size: 13;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_footer a{
+	margin-top: 10px;
+	color: black;
+	font-weight:600 ;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.box_footer a:hover{
+opacity: 0.8 ;
+}
+
+.box_footer a .fab{
+	font-size: 10px
+}
+
+.box_copyright{
+	max-width:1200px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 30px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.box_copyright p{
+	margin-top: 20px;
+    color: #5A5A5A;
+	font-size: 12px
+	font-family: 'Roboto Slab', serif;
+}
+
+/*la rayita*/
+.box_copyright hr{
+	border: none; 
+	height: 1px;
+	background-color:#5A5A5A;
+	font-family: 'Roboto Slab', serif;
+}
+
+.caja1{
+	height: 220px;
+	width: 300px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 100px;
+	padding: 29px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+.caja2{
+	height: 350px;
+	width: 400px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: -255px;
+	padding: 12px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
